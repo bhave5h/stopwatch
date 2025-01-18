@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html, body {
+  height: 100vh;
+  width: 100%;
+  background-color: lightcyan;
+  font-family: "Roboto", serif;
+  background-image: url('https://cdn.magicdecor.in/com/2023/02/30003919/image-1681203386-3590-710x488.jpg');
+}
+#head1{
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 400px;
+  height: 500px;
+  flex-direction: column;
+  position: relative;
+  background: transparent;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+.stopwatch {
+  flex-direction: column;
+}
+.stopwatch h1 {
+  color: whitesmoke;
+  font-family: "Jersey 15", serif;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.circle {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50 , 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.circle span {
+  color: whitesmoke;
+  font-weight:500;
+  font-size: 40px;
+}
+
+.controls button {
+  color: whitesmoke;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.controls button i {
+  margin: 0 20px;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.controls {
+  margin-top: 50px;
+}
+
+#playButton {
+  display: block;
+}
+
+#pauseButton {
+  /* display: none; */
+}
+
+/* #footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+} */
+
+#footer :hover {
+  color: whitesmoke ;
+}
